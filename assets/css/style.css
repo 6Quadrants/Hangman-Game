@@ -1,0 +1,72 @@
+
+h1, h3, h5, p {
+    text-align: center;
+}
+
+/* h3.correct {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 44px;
+    justify-content: center;
+    padding: 15 px;
+    height: 75px;
+    width: 50px;
+    margin-right: 10px;
+} */
+
+/* .correct {
+    background-color: #000000;
+    padding: 15 px;
+    height: 75px;
+    width: 50px;
+    margin-right: 10px;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+li {
+
+}
+#guessed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#empty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blanks {
+    background-color: #006a85fb;
+    padding: 15 px;
+    height: 15px;
+    width: 50px;
+    margin-right: 10px;
+
+}
+
+.top {
+    margin-top: 50px;
+    background-color: aquamarine;
+}
+
+.jumbotron {
+    background-color: aqua;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.remaining, .wrong {
+    width: 90%;
+    background-color: #f0f0f0fb;
+   
+}
